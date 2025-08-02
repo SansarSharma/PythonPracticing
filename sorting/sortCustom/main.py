@@ -28,11 +28,14 @@ from typing import List
 
 
 def sort_words(words: List[str]) -> List[str]:
-    return sorted(words, key=len, reverse=True)
-
+    wordList: List[str] = words[:]
+    wordList.sort(key=len, reverse=True)
+    return wordList
 
 def sort_numbers(numbers: List[int]) -> List[int]:
-    return sorted(numbers, key=abs)
+    numList: List[int] = numbers[:]
+    numList.sort(key=abs)
+    return numList
 
 
 # do not modify below this line
