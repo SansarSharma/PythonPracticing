@@ -19,7 +19,7 @@ Notice that we didn't need the boolean and in the second example. This is a smal
 
 Challenge
 ---------
-Implement the following functions using enumerate():
+Implement the following function:
 
     1. is_arr_valid(names: List[str], max_length: int) -> bool. It should return True if the length of the names list is greater than 0 and less than or equal to the parameter max_length. Otherwise it should return False.
 
