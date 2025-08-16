@@ -59,10 +59,10 @@ from collections import deque
 def rotate_list(arr: List[int], k: int) -> Deque[int]:
     queue: List[int] = deque(arr)
     length: int = len(queue)
-    k = k % len(queue)  # avoid extra unnecessary rotations
+    k = k % len(queue)
 
     if (length == 0):
-        return queue  # handle empty input
+        return queue
 
     for x in range(0, k, 1):
         queue.append(queue.popleft())
