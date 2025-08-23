@@ -3,7 +3,6 @@ Dict Items
 ----------
 If we wanted all the keys from a dictionary, we could loop over the dictionary and append the keys to a list. But Python provides a more concise way to get all the keys from a dictionary using the keys() method.
 
-
     my_dict = {"a": 1, "b": 2, "c": 3}
     keys = my_dict.keys()
     print(keys)  # dict_keys(['a', 'b', 'c'])
