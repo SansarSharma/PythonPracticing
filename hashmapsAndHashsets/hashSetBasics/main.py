@@ -34,7 +34,7 @@ Lookup: Check if a key exists in the hash set.
 
 Challenge
 ---------
-Implement the following function using a Counter:
+Implement the following functions:
 
     1. build_hash_set(keys: List[str]) -> Set[str]. It takes a list of strings and returns a hash set containing those strings.
 
