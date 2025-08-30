@@ -1,5 +1,5 @@
 """
-Heapify
+maxHeap
 -------
 Unfortunately, Python does not have a built-in max heap implementation.
 However, we can simulate a max heap by negating the values we insert into the heap. This way, the element with the largest priority (the smallest value) will be at the top of the heap.
