@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="90c890c5-ecb0-4c1d-bf6b-571f358ffc42" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heapsAndPriorityQueues/heapNLargest/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/heapsAndPriorityQueues/heapNLargest/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heapsAndPriorityQueues/heapNSmallest/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/heapsAndPriorityQueues/heapNSmallest/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortedDictsAndSortedSets/sortedDictBasics/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortedDictsAndSortedSets/sortedDictBasics/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortedDictsAndSortedSets/sortedSetBasics/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortedDictsAndSortedSets/sortedSetBasics/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
