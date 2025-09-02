@@ -19,7 +19,7 @@ Heaps provide a very convenient way to find the smallest elements in a collectio
 
 Challenge
 ---------
-Implement the function:
+Implement the following functions using heapq.nsmallest():
 
     1. get_min_element(arr: List[int]) -> int that returns the smallest element in the list arr.
     2. get_min_4_elements(arr: List[int]) -> List[int] that returns the 4 smallest elements in the list arr in increasing order.
