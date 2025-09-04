@@ -103,11 +103,29 @@ from sortedcontainers import SortedDict
 
 
 def remove_keys(sorted_dict: SortedDict[str, int], keys: List[str]) -> SortedDict[str, int]:
-    pass
+   key_length: int = len(keys)
+   name: str = ""
+
+   for index in range(0, key_length, 1):
+       name = keys[index]
+       sorted_dict.pop(name)
+
+   return sorted_dict
 
 
 def get_values_before_target(sorted_dict: SortedDict[str, int], target: str) -> List[int]:
-    pass
+   values: List[int] = []
+   keys: List[str] = list(sorted_dict.keys())
+   key_length: int = len(keys)
+   name: str = ""
+
+   for index in range(0, key_length, 1):
+       name = keys[index]
+       if name == target:
+           break
+       values.append(sorted_dict[name])
+
+   return values
 
 
 # do not modify below this line
@@ -120,4 +138,3 @@ print(get_values_before_target(SortedDict({'Alice': 25, 'Bob': 30, 'Charlie': 35
 print(get_values_before_target(SortedDict({'Alice': 25, 'Bob': 30, 'Charlie': 35, 'David': 40}), 'Charlie'))
 print(get_values_before_target(SortedDict({'Alice': 25, 'Bob': 30, 'Charlie': 35, 'David': 40}), 'Bob'))
 print(get_values_before_target(SortedDict({'Alice': 25, 'Bob': 30, 'Charlie': 35, 'David': 40}), 'Alice'))
-
